@@ -1,0 +1,29 @@
+.Test3 { 
+    width:800px; display:flex;
+    article{ width:400px ; height: 300px;
+        h3 { font-size: 20px; text-align:center; padding:15px 0; }
+        &:nth-child(1) { background:yellow;  }
+        &:nth-child(2) { background:pink;  
+            ul { display:flex ; margin-left:20px;
+                li{ width:50px; height:50px; text-align:center; margin-right:10px; border:1px solid #000; line-height: 50px; background-color:skyblue; transition:0.4s; cursor: pointer;
+                &:hover {
+                    background-color:lime ; transform:rotate(45deg)
+                }
+                }
+            }
+        }
+    }
+}
+
+/*
+.Test3 { width:800px; display:flex}
+.Test3 article{ width:400px ; height: 300px;}
+.Test3 article h3 { font-size: 20px; text-align:center; padding:15px 0}
+.Test3 article:nth-child(1) { background:yellow;  }
+.Test3 article:nth-child(2) { background:pink;  }
+.Test3 article:nth-child(2) ul { display:flex ; margin-left:20px}
+.Test3 article:nth-child(2) ul li{ width:50px; height:50px; text-align:center; margin-right:10px; border:1px solid #000; line-height: 50px; background-color:skyblue; transition:0.4s; cursor: pointer;}
+.Test3 article:nth-child(2) ul li:hover {
+    background-color:lime ; transform:rotate(45deg)
+}
+*/

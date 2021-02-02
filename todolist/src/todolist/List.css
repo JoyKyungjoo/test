@@ -1,0 +1,8 @@
+.List{}
+.List ul{}
+.List ul li{ position: relative; height: 60px; background-color: lightslategray; padding: 0 30px; font-size: 20px; line-height: 60px; color: #000; border-bottom: 1px solid #fff;}
+.List ul li span{font-weight: 600; margin-right: 25px;}
+.List ul li strong{}
+.List ul li button{position: absolute; right: 30px; top: 10px; width: 80px; height: 40px; border: #000; background-color: #fff; color: #000;}
+
+.on{color: red; text-decoration: line-through; background-color: transparent;}

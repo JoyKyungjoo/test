@@ -1,0 +1,56 @@
+.Test5 {
+    width:100%;  
+    .movie-box {
+        width:1200px; margin:50px auto; display:flex;
+        .movie-view {
+            width:50%;
+            display:flex;
+            img { width:300px }
+            div {    margin-left:25px;
+                h3 { font-size: 20px;  }
+                span { font-size:16px; }
+                ul {   margin-top:30px;
+                    li {
+                        margin-bottom:15px ; font-size:15px;
+                        strong {
+                            display:inline-block; width:100px;
+                            font-weight: 600;
+                        }
+                    }    
+                }
+            }
+        }
+        .movie-list {
+            width:45%;
+            margin-left:20px;
+            table {
+                width:100%;
+                .w1 {width:8% }
+                .w2 {}
+                .w3 {width:20%}
+                .w4 {width:12%}
+                .w5 {width:12%}
+
+                thead {
+                    tr {
+                        th {
+                            height:50px; border-bottom:1px solid #666;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            height:50px; border-bottom:1px solid #666; text-align: center;
+                        }
+                        &:hover {
+                            background:skyblue;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
